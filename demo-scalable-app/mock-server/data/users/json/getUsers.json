@@ -1,0 +1,66 @@
+{
+    "data": {
+        "users": [
+            {
+                "id": "1", 
+                "fullName": "Chandler Bing", 
+                "email": "chandlermurielbing@gmail.com", 
+                "password": "chandler@123"
+            },
+            {
+                "id": "2", 
+                "fullName": "Joey Tribbiani", 
+                "email": "josephfrancistribbiani@gmail.com", 
+                "password": "joey@123"
+            },
+            {
+                "id": "3", 
+                "fullName": "Phoebe Buffay", 
+                "email": "phoebebuffayhannigan@gmail.com", 
+                "password": "phoebe@123"
+            },
+            {
+                "id": "4", 
+                "fullName": "Ross Geller", 
+                "email": "rosseustacegeller@gmail.com", 
+                "password": "ross@123"
+            },
+            {
+                "id": "5", 
+                "fullName": "Monica Geller", 
+                "email": "monicaeustacegeller@gmail.com", 
+                "password": "monica@123"
+            },
+            {
+                "id": "6", 
+                "fullName": "Chandler Bing", 
+                "email": "chandlermurielbing@gmail.com", 
+                "password": "chandler@123"
+            },
+            {
+                "id": "7", 
+                "fullName": "Joey Tribbiani", 
+                "email": "josephfrancistribbiani@gmail.com", 
+                "password": "joey@123"
+            },
+            {
+                "id": "8", 
+                "fullName": "Phoebe Buffay", 
+                "email": "phoebebuffayhannigan@gmail.com", 
+                "password": "phoebe@123"
+            },
+            {
+                "id": "9", 
+                "fullName": "Ross Geller", 
+                "email": "rosseustacegeller@gmail.com", 
+                "password": "ross@123"
+            },
+            {
+                "id": "10", 
+                "fullName": "Monica Geller", 
+                "email": "monicaeustacegeller@gmail.com", 
+                "password": "monica@123"
+            }
+        ]
+    }
+}

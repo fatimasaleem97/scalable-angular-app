@@ -1,0 +1,49 @@
+<main class="main">
+    <div class="container mt-4 mb-4 p-3 d-flex justify-content-center">
+        <div class="card col-md-6">
+            <div class="card-body">
+                <h3 class="card-title">Edit Profile</h3><br>
+                <h6 class="card-subtitle mb-2 text-muted">All fields are required.</h6>
+                <form><br>
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <label for="exampleInputFullName1">Full Name</label>
+                                <input [(ngModel)]='user.fullName' name="user.fullName" type="text" class="form-control" id="exampleInputFullName1" aria-describedby="emailHelp" placeholder="Enter email">
+                                <span *ngIf='!user.fullName && submit' class="text-danger" style="margin-top:35px;" >{{'Full Name is required'}}</span>
+                            </div>
+                        </div>
+                    </div><br>
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <label for="exampleInputEmail1">Email address</label>
+                                <input [(ngModel)]='user.email' name="user.email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                                <br><span *ngIf='!user.email && submit' class="text-danger" style="margin-top:35px;" >{{'Email is required'}}</span>
+                            </div>
+                        </div>
+                    </div><br>
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-md-12">
+                            <label for="exampleInputPassword1">Password</label>
+                            <input [(ngModel)]='user.password' name="user.password"  type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                            <span *ngIf='!user.password && submit' class="text-danger" style="margin-top:35px;" >{{'Password is required'}}</span>
+                            </div>
+                        </div>
+                    </div><br>
+                    <div class="form-group form-check">
+                        <div class="row">
+                            <div class="col-md-12">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Remember me</label>
+                            </div>
+                        </div>
+                    </div><br>
+                    <button type="submit" class="btn btn-primary submitbtn" (click)="UpdateUser()">Update</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</main>

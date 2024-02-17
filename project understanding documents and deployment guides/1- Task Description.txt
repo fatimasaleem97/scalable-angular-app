@@ -1,0 +1,1 @@
+Create a new Angular project that consumes a fake API. The project should be designed with scalability in mind, considering that it will expand into a larger project in future.

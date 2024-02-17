@@ -1,0 +1,14 @@
+<table class="table table-dark table-striped table-hover">
+    <thead>        
+      <tr>
+        <th scope="col">Name </th>
+        <th scope="col">Email</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor='let follower of followers'>
+            <td scope="row">{{follower.fullName}}</td>
+            <td>{{follower.email}}</td>
+        </tr>
+    </tbody>
+  </table>
